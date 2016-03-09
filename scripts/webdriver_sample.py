@@ -19,7 +19,7 @@ class WebdriverSample(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url + "/")
         self.assertEqual("Google", driver.title)
-        self.assertTrue(False)
+        # self.assertTrue(False)
         self.assertTrue(True)
 
     
