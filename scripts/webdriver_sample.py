@@ -20,6 +20,7 @@ class WebdriverSample(unittest.TestCase):
         driver.get(self.base_url + "/")
         self.assertEqual("Google", driver.title)
         self.assertTrue(False)
+        self.assertTrue(True)
 
     
     def is_element_present(self, how, what):
