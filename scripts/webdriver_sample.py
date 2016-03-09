@@ -19,6 +19,8 @@ class WebdriverSample(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url + "/")
         self.assertEqual("Google", driver.title)
+        self.assertTrue(False)
+
     
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
