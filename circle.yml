@@ -3,7 +3,9 @@ machine:
 #  hosts:
 #environment:
 
-#dependencies:
+dependencies:
+  pre:
+    - pip install selenium
 #  override:
 #
 #  pre:
